@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MMV2001/minimal-ecommerce-react.git/static/css/main.c82b7dd5.css",
-    "main.js": "/MMV2001/minimal-ecommerce-react.git/static/js/main.33fb7c79.js",
-    "static/js/453.4db6b09a.chunk.js": "/MMV2001/minimal-ecommerce-react.git/static/js/453.4db6b09a.chunk.js",
-    "static/media/Header.png": "/MMV2001/minimal-ecommerce-react.git/static/media/Header.92b29569c1d020b6c4ed.png",
-    "static/media/Logo.jpg": "/MMV2001/minimal-ecommerce-react.git/static/media/Logo.3bb5958c69c25de4232f.jpg",
-    "index.html": "/MMV2001/minimal-ecommerce-react.git/index.html",
-    "main.c82b7dd5.css.map": "/MMV2001/minimal-ecommerce-react.git/static/css/main.c82b7dd5.css.map",
-    "main.33fb7c79.js.map": "/MMV2001/minimal-ecommerce-react.git/static/js/main.33fb7c79.js.map",
-    "453.4db6b09a.chunk.js.map": "/MMV2001/minimal-ecommerce-react.git/static/js/453.4db6b09a.chunk.js.map"
+    "main.css": "/minimal-ecommerce-react/static/css/main.13636e2c.css",
+    "main.js": "/minimal-ecommerce-react/static/js/main.b4053061.js",
+    "static/js/453.4db6b09a.chunk.js": "/minimal-ecommerce-react/static/js/453.4db6b09a.chunk.js",
+    "static/media/Header.png": "/minimal-ecommerce-react/static/media/Header.92b29569c1d020b6c4ed.png",
+    "static/media/Logo.jpg": "/minimal-ecommerce-react/static/media/Logo.3bb5958c69c25de4232f.jpg",
+    "index.html": "/minimal-ecommerce-react/index.html",
+    "main.13636e2c.css.map": "/minimal-ecommerce-react/static/css/main.13636e2c.css.map",
+    "main.b4053061.js.map": "/minimal-ecommerce-react/static/js/main.b4053061.js.map",
+    "453.4db6b09a.chunk.js.map": "/minimal-ecommerce-react/static/js/453.4db6b09a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c82b7dd5.css",
-    "static/js/main.33fb7c79.js"
+    "static/css/main.13636e2c.css",
+    "static/js/main.b4053061.js"
   ]
 }
