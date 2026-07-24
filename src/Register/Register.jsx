@@ -12,17 +12,17 @@ function Register({ show, setShow }) {
     const [showpassword0, setShowpasswrd0] = useState(false)
     const [powerpassword, setPowerpassword] = useState(0)
 
-    
+
     if (!show) return null;
 
     return (
         <div className="containet-register active" onClick={() => setShow(false)}>
             <div className="containet-items" onClick={(e) => e.stopPropagation()}>
                 <div className="container-register-nabvar">
-                    <p className={singin ? 'active-login' : ''} onClick={() => setSingin(true)}>
+                    <p className={singin ? 'activee' : 'active-login'} onClick={() => setSingin(true)}>
                         ورود
                     </p>
-                    <p className={!singin ? 'active-singup' : ''} onClick={() => setSingin(false)}>
+                    <p className={!singin ? 'activee' : 'active-singup'} onClick={() => setSingin(false)}>
                         عضویت
                     </p>
                 </div>
@@ -46,7 +46,7 @@ function Register({ show, setShow }) {
                             </div>
                             <div className="total-items">
                                 <label>رمز عبور</label>
-                                <input type={showpassword1 === true ? 'text' : 'password'} placeholder="••••••••"  />
+                                <input type={showpassword1 === true ? 'text' : 'password'} placeholder="••••••••" />
                                 {showpassword1 === false ? <IoEyeOffOutline onClick={() => setShowpasswrd1(true)} /> : <IoEyeOutline onClick={() => setShowpasswrd1(false)} />}
                             </div>
                             <div className="total-items">

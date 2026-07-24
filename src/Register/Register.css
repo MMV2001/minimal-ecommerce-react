@@ -63,6 +63,11 @@
     color: #fff8dc !important;
 }
 
+.activee{
+    background-color: rgb(125, 75, 0) !important ;
+    color: #fff8dc !important ;
+}
+
 .x {
     display: flex;
     justify-content: flex-end;
@@ -147,7 +152,7 @@
     color: #1e293b;
 }
 
-/* دکمه ثبت فرم */
+
 .submit-btn {
     width: 100%;
     height: 48px;

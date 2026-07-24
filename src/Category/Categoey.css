@@ -9,6 +9,7 @@
     white-space: nowrap;
     -ms-overflow-style: none; 
     scrollbar-width: none; 
+    justify-content: center;
 }
 
 .container-category::-webkit-scrollbar {
