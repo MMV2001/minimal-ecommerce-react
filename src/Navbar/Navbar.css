@@ -1,0 +1,157 @@
+.containet-navbar {
+    width: 85%;
+    max-width: 1200px;
+    display: flex;
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(222, 195, 94, 0.92);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.item-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+
+.navbar-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.Serach {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 4px 12px;
+    width: 180px;
+    transition: all 0.3s ease;
+}
+
+.Serach input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    direction: rtl;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: #666;
+    margin-left: 6px;
+    flex-shrink: 0;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    color: rgb(45, 45, 45);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-menu li a:hover {
+    color: #000;
+}
+
+.hamburger-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #333;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+@media (max-width: 868px) {
+    .containet-navbar {
+        width: 92%;
+        top: 10px;
+        padding: 10px 16px;
+    }
+
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 65px;
+        right: 0;
+        left: 0;
+        background-color: rgba(248, 243, 222, 0.98);
+        backdrop-filter: blur(12px);
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        gap: 20px;
+        margin-right: 0;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-menu.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .Serach {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-menu li a {
+        display: block;
+        padding: 8px 0;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+}
